@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(199, 176, 126);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    color: black;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a{
+    display: block;
+    padding: 20px;
+}
+
+header {
+    background-image: url(images/NLE-Choppa-6.jpg);width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color:pink;
+}
+
+nav a:hover{
+    display: block;
+    color: rgb(199, 176, 126);
+    background-color: aliceblue;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+
+li {
+    display: inline-block;
+}
+#home {
+    background-color: pink;
+    padding: 10px;
+}
+#tour {
+    background-color: pink;
+    padding: 10px;
+}
+#merch {
+    background-color:pink;
+    padding: 10px;
+}
+
+#release {
+    background-color: pink;
+    padding: 10px;
+}
+main {
+    padding: 15px;
+}
+
+footer {
+    color: pink;
+}
