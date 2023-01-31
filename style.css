@@ -18,15 +18,24 @@ a{
     padding-top: 5%;
 }
 .left{
-    flex: 4;
+    flex: 5;
     text-align: start;
     padding-left: 5%;
+    border-right: 2px solid black;
+    margin-right: 2%;
 }
 .right{
-    flex: 7;
+    flex: 5;
+    margin-left: 2%;
     text-align: ;
     padding-right: 5%;
 }
 .up{
+    text-align: center;
+}
+li{
+    color: rgb(21, 76, 121);
+}
+footer{
     text-align: center;
 }
