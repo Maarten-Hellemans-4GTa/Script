@@ -1,5 +1,5 @@
 body {
-    font-size: large;
+    font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     background-color: rgb(21, 76, 121);
@@ -8,23 +8,25 @@ a{
     color: rgb(255, 255, 255);
 }
 #about {
-    border: ;
+    border-width: 2px;
+    border-style: solid;
     border-color: black;
     display: flex;
+    border-radius: 40px;
+    background: rgb(105, 105, 104);
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 .left{
     flex: 4;
-    border: 2px solid black;
     text-align: start;
-    padding-left: 100px;
+    padding-left: 5%;
 }
 .right{
     flex: 7;
-    border: 2px solid black;
-    text-align: end;
-    padding-right: 100px;
+    text-align: ;
+    padding-right: 5%;
 }
 .up{
-    border: 3px solid black;
     text-align: center;
 }
