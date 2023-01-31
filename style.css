@@ -15,12 +15,14 @@ a{
 .left{
     flex: 4;
     border: 2px solid black;
-    text-align: left;
+    text-align: start;
+    padding-left: 100px;
 }
 .right{
     flex: 7;
     border: 2px solid black;
-    text-align: right;
+    text-align: end;
+    padding-right: 100px;
 }
 .up{
     border: 3px solid black;
