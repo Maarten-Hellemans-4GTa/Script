@@ -4,40 +4,38 @@
     box-sizing: border-box;
     padding: 0;
 }
-
 body {
     background-color: rgb(83, 102, 209);
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-
 header {
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 10px;
 }
-
 header nav li {
-    display: inline;
+    display: inline-block;
 }
-
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 header img {
     width: 100px;
 }
-
-
+nav a{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color:black ;
+}
 header input {
     padding: 4px 10px;
     border-radius: 20px;
     width: 100px;
 }
-
 video{
     width: 100%;
 }
