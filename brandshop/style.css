@@ -8,6 +8,11 @@ body {
     color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
 }
+
+img {
+    width: 80%;
+}
+
 header {
     background-color: rgb(255, 255, 255);
     color: black;
@@ -52,15 +57,66 @@ video {
 .flex-item {
     flex: 1;
 }
+
+section {
+    margin-bottom: 3rem;
+}
+
+#featured h2{
+    padding-left: 2rem;
+}
 #featured  img{
     display: block;
-    width: 100%;
+    width: 80%;
     aspect-ratio: 5/6;
     object-fit: cover;
 }
-.categories{
-    display: block;
-    width: 100%;
-    aspect-ratio: 5/6;
-    object-fit: cover;
+#featured{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#categories h2{
+    padding-left: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#categories h1{
+    padding-left: 2rem;
+    background-color: black;
+    color: white;
+}
+figure {
+    position: relative;
+}
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+#categories img{
+    margin: 1rem;
+    border-radius: 10%;
+}
+.highlight{
+    color: white;
+    background-color: black;
+}
+.achtergrondfoto{
+    background-size: cover;
+    background-image: url(groepsfoto.jpg);
+        
+}
+#backstory h2{
+    padding-left: 2rem;
+}
+#backstory p{
+    padding-left: 1rem;
+}
+footer{
+    padding: 2rem;
+    background-color: black;
+}
+footer a{
+    color: white;
 }
