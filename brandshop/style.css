@@ -138,3 +138,11 @@ footer ul li:first-child a {
     font-weight: 600;
     text-transform: uppercase;
 }
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
